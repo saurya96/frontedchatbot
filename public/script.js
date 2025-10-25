@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Use Vercel backend or local fallback
   const API_BASE = window.location.hostname === 'localhost' 
     ? '' 
-    : 'https://geminii-8e7n.vercel.app';
+    : 'backendchatbot-lime.vercel.app/ask';
 
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
